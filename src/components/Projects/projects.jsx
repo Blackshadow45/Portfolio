@@ -15,7 +15,7 @@ function projects() {
 
          <ProjectCard src={ToDoList} link='https://github.com/Blackshadow45/JavaScript-Code/tree/main/Weather%20Application' h3="To-Do List"/>
 
-         <ProjectCard src={port} link='https://github.com/Blackshadow45/JavaScript-Code/tree/main/Weather%20Application' h3="Portfolio"/>
+         <ProjectCard src={port} link='https://github.com/Blackshadow45/Portfolio' h3="Portfolio"/>
 
       </div>
 
