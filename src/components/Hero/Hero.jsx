@@ -9,8 +9,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import cv from '../../assets/cv.pdf';
-import cv1 from '../../assets/CV VIRAJ D.pdf'
+import vfsd from '../../assets/Viraj_Deshmukh_FSDR.pdf';
 import { useTheme } from '../../common/ThemeContext';
 function Hero() {
     const {theme , toggleTheme}=useTheme();
@@ -41,7 +40,7 @@ function Hero() {
         <p className={styles.description}>
               Aspiring Java Full Stack Developer — on a mission to craft meaningful web experiences and evolve through every line of code.
         </p>
-        <a href={cv1} download>
+        <a href={vfsd} download>
             <button className='hover' >Resume </button>
         </a>
     </div>
